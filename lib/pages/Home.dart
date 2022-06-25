@@ -13,13 +13,16 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(name, style: TextStyle(
-          color: 
-        ), textAlign: TextAlign.center,),
+        title: const Text(name, 
+          style: TextStyle(
+          color:Colors.blue,
+          ),
+      ),
       ),
       body: SafeArea(child: Container(
 
-      ),),
+      ),
+      ),
     );
   }
 }
